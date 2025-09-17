@@ -6,7 +6,7 @@ app.get('/health', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Greatings Earthling, sorry, worng planet, as you were!');
+  res.send('Greatings Earthling, We have now landed on Nibiru, prepare for take over! ');
 });
 
 module.exports = app;
